@@ -526,22 +526,26 @@ nav {
 }
 /* width */
 .rec-slot-col::-webkit-scrollbar,
-.column-experience::-webkit-scrollbar{
+.column-experience::-webkit-scrollbar,
+.column-education::-webkit-scrollbar {
         width: 5px;
 }
 /* Track */
 .rec-slot-col::-webkit-scrollbar-track,
-.column-experience::-webkit-scrollbar-track {
+.column-experience::-webkit-scrollbar-track,
+.column-education::-webkit-scrollbar-track {
         background: #f1f1f1; 
 }    
 /* Handle */
 .rec-slot-col::-webkit-scrollbar-thumb,
-.column-experience::-webkit-scrollbar-thumb {
+.column-experience::-webkit-scrollbar-thumb,
+.column-education::-webkit-scrollbar-thumb {
         background: #06185a; 
 }
 /* Handle on hover */
 .rec-slot-col::-webkit-scrollbar-thumb:hover,
-.column-experience::-webkit-scrollbar-thumb:hover {
+.column-experience::-webkit-scrollbar-thumb:hover,
+.column-education::-webkit-scrollbar-thumb:hover {
         background: #030b2a; 
 }
 
