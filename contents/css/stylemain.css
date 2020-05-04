@@ -689,3 +689,28 @@ cite img {
 .personal-info li:last-child {
         border-top: 2px solid #000000;
 }
+
+.sign-pf {
+        float: left;
+        height: 50px;
+        width: auto;
+}
+
+.sign-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+}
+
+.pf-para a:link, 
+.pf-para a:visited {
+        color: #06185a ;
+        font-weight: 700;
+}
+
+.pf-para a:hover, 
+.pf-para a:active {
+        color: #b9c7fa;
+        transition: color 0.35s;
+}
