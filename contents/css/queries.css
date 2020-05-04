@@ -1,7 +1,8 @@
+/* Big tablet to 1200px (widths smaller that the 1200px row) */
 
-/* ------------------------------ MAX-WIDTH: 1024px ------------------------------ */
-/*
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) { 
+         
+        
         body { font-size: 10px;}
         section { padding: 100px  0; } 
 
@@ -32,153 +33,9 @@
         .header-img-alignment {
                 height: 54vh;
         }
-        h1 {
-                font-size: 600%;
-        }
-        .hero-text {
-                font-size: 300%;
-        }
-        .hero-text-span {
-                font-size: 80%;
-        }
-        .job-posting li a:link,
-        .job-posting li a:visited {
-                font-size: 250%;
-        }
-
-        .row-long-flex {
-                max-width: 95%;
+        .row-header {
+                width: 95%;
                 margin: 0 auto;
-                display: flex;
-                flex-direction: column;
-        }
-        h3 {
-                font-size: 400%;
-        }
-        .h3-comskillslot {
-                width: 100%;
-                margin: 0 auto;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-        }
-        .h3-non-conspicuous {
-                text-align: center;
-        }
-        .h3-non-conspicuous:after {
-                text-align: center;
-                display: block;
-                height: 2px;
-                background-color: #06185a;
-                content: " ";
-                width: 20%;
-                margin: 10px auto 5% auto;
-        }
-        .column-experience {
-                float: none ;
-                order: 1;
-                width: 100%;
-                height: 40vh;
-        }
-        .column-education {
-                float: none;
-                order: 2;
-                width: 100%;
-                border-top: 0;
-                margin-top: 0;
-                height: 40vh;
-                overflow: scroll;
-        }
-
-        .experience-box, .education-box {
-                height: auto;
-                width: 90%;
-                margin: 0% auto 0% auto;
-                border-bottom: 2px solid #acacac;
-                padding: 2% 38.5% 2% 2.5% ;
-                font-size: 275%;
-                display: flex;
-        }
-        .experience-img, .education-img {
-                width: 100%;
-                margin: 5% 5%;
-                height: auto;
-                border: 2px solid #000000;
-                border-radius: 5px;
-        }
-        .experience-text-box {
-                margin: 0 0 0 5% ;
-        }
-        .exp-job-box-text-title {
-                font-size: 90%;
-        }
-        .exp-job-box-text-title-long {
-                font-size: 90%;
-        }
-
-        h2 {
-                font-size: 600%;
-        }
-        .p-skillset {
-                font-size: 300%;
-                text-align: center;
-                margin: 5% 0 10% 0;
-        }
-        .row-content-s {
-                width: 90%;
-        }
-        .com-skillset-slotlist {
-                font-size: 240%;
-        }
-
-        .rec-slot-col {
-                height: 40vh;
-        }
-        .rec-slot {
-                font-size: 200%;
-        }
-        .rec-title, 
-        .rec-job-title, 
-        .rec-log {
-                font-size: 100%;
-                text-align: center;
-        }
-}
-
-*/
-
-/* ------------------------------ MAX-WIDTH: 900px ------------------------------ */
-/*
-@media only screen and (max-width: 900px) {
-        body { font-size: 10px;}
-        section { padding: 100px  0; } 
-
-        header {
-                height: 10vh;
-                margin: 0;
-                padding: 0 0 5% 0;
-        }       
-        nav { 
-                height: 100px; 
-                padding: 0 2%;
-                margin:  0 0 2% 0;
-        }
-        .nav-avatar {
-                height: 90px;
-                margin: 5px 0 0 0 ;
-        }
-        .nav-avatar-name {
-                font-size: 500%;
-                height: 90px;
-                margin: 5px 0 0 10px ;
-        }
-        .main-nav {
-                height: 90px;
-                margin: 5px 0 0 0 ;
-                font-size: 300%;
-        }
-        .header-img-alignment {
-                height: 10vh;
         }
         h1 {
                 font-size: 600%;
@@ -291,15 +148,17 @@
                 font-size: 100%;
                 text-align: center;
         }
-}
-*/
 
+ 
+ }
 
-/* ------------------------------ MAX-WIDTH: 768px ------------------------------ */
+    
+    
+/* Small tablet to big tablet: from 901px to 1024px */
 
-/*
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) { 
+         
+        
         body { font-size: 10px;}
         section { padding: 100px  0; } 
 
@@ -330,6 +189,10 @@
         .header-img-alignment {
                 height: 54vh;
         }
+        .row-header {
+                width: 95%;
+                margin: 0 auto;
+        }
         h1 {
                 font-size: 600%;
         }
@@ -441,15 +304,17 @@
                 font-size: 100%;
                 text-align: center;
         }
-}
 
-*/
+ 
+ }
+    
+    
+    
+/* Small phones to small tablets: from 768px to 900px */
 
-/* ------------------------------ MAX-WIDTH: 600px ------------------------------ */
-
-
-/*
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) { 
+         
+        
         body { font-size: 10px;}
         section { padding: 100px  0; } 
 
@@ -480,6 +345,10 @@
         .header-img-alignment {
                 height: 54vh;
         }
+        .row-header {
+                width: 95%;
+                margin: 0 auto;
+        }
         h1 {
                 font-size: 600%;
         }
@@ -591,15 +460,16 @@
                 font-size: 100%;
                 text-align: center;
         }
-}
 
-*/
+ 
+ }
+    
+    
+    
+/* Small phones: from 481px to 768px */
 
-/* ------------------------------ MAX-WIDTH: 480px ------------------------------ */
-
-/*
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) { 
+        
         body { font-size: 10px;}
         section { padding: 100px  0; } 
 
@@ -614,34 +484,83 @@
                 margin:  0 0 2% 0;
         }
         .nav-avatar {
-                height: 90px;
-                margin: 5px 0 0 0 ;
+                height: 40px;
+                margin: 30px 0 0 0 ;
         }
         .nav-avatar-name {
-                font-size: 500%;
+                font-size: 200%;
                 height: 90px;
                 margin: 5px 0 0 10px ;
         }
         .main-nav {
                 height: 90px;
                 margin: 5px 0 0 0 ;
-                font-size: 300%;
+                font-size: 100%;
+        }
+        .main-nav li {
+                font-size: 175%;
+                line-height: 100px;
+                width: 70px;
+                letter-spacing: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
         }
         .header-img-alignment {
-                height: 54vh;
+                height: 42vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .header-img {
+                width: 100%;
+                margin: 0 auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+        }
+        .row-header {
+                height: auto;
+                padding: 5% 0 ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+        .avatar {
+                display: block;
+                width: 90%;
+                height: auto;
+                margin: 5% auto;
         }
         h1 {
-                font-size: 600%;
+                font-size: 300%;
+        }
+        .hero-text-box {
+                width: 100%;
+                margin: 10% auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
         }
         .hero-text {
                 font-size: 300%;
+                text-align: center;
         }
         .hero-text-span {
                 font-size: 80%;
+                text-align: center;
+        }
+        .job-posting {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .job-posting li a:link,
         .job-posting li a:visited {
                 font-size: 250%;
+                text-align: center;
         }
 
         .row-long-flex {
@@ -651,7 +570,11 @@
                 flex-direction: column;
         }
         h3 {
-                font-size: 400%;
+                font-size: 300%;
+        }
+        h3:after, .h3-sec-ski-end:after, .h3-non-conspicuous:after {
+                width: 100px;
+                margin: 10px auto 0 auto;
         }
         .h3-comskillslot {
                 width: 100%;
@@ -661,95 +584,156 @@
                 justify-content: center;
         }
         .h3-non-conspicuous {
+                font-size: 200%;
                 text-align: center;
         }
         .h3-non-conspicuous:after {
-                text-align: center;
-                display: block;
-                height: 2px;
-                background-color: #06185a;
-                content: " ";
+                background-color: #868686;
                 width: 20%;
                 margin: 10px auto 5% auto;
         }
         .column-experience {
-                float: none ;
-                order: 1;
+                height: 60vh;
                 width: 100%;
-                height: 40vh;
+                margin: 5% auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .column-education {
-                float: none;
-                order: 2;
+                height: 60vh;
                 width: 100%;
-                border-top: 0;
-                margin-top: 0;
-                height: 40vh;
-                overflow: scroll;
-        }
-
-        .experience-box, .education-box {
-                height: auto;
-                width: 90%;
-                margin: 0% auto 0% auto;
-                border-bottom: 2px solid #acacac;
-                padding: 2% 38.5% 2% 2.5% ;
-                font-size: 275%;
+                margin: 0 auto;
                 display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .experience-box, .education-box {
+                width: 90%;
+                margin: 0 auto;
+                padding: 5% 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 200%;
+        }
+        .experience-job-list {
+                width: 70%;
+                margin: 2% auto;
+        }
+        .experience-text-box, .education-text-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin:  0 0 5% 0 ;
+                padding: 5% 0;
         }
         .experience-img, .education-img {
-                width: 100%;
-                margin: 5% 5%;
+                display: block;
                 height: auto;
-                border: 2px solid #000000;
+                width: 40%;
+                margin: 0 auto 5% auto;
+        }
+        .experience-title,
+        .organization-title,
+        .duration-title,
+        .location-title {
+                text-align: center;
+        }
+        .experience-job-box {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2% 0 ;
+        }
+        .exp-job-box-img {
+                width: 30%;
+                height: auto;
+                border: 0;
+        }
+        .exp-job-box-img img {
+                width: 100%;
+                height: auto;
                 border-radius: 5px;
         }
-        .experience-text-box {
-                margin: 0 0 0 5% ;
+        .exp-job-box-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
-        .exp-job-box-text-title {
-                font-size: 90%;
+        .exp-job-box-text-title, .exp-job-box-text-title-long  {
+                padding:  2% 0;
+                font-size: 100%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .exp-job-box-text-title-long {
-                font-size: 90%;
+                font-size: 100%;
         }
 
         h2 {
-                font-size: 600%;
+                font-size: 300%;
         }
         .p-skillset {
-                font-size: 300%;
+                font-size: 200%;
                 text-align: center;
                 margin: 5% 0 10% 0;
+                padding: 2% 0;
         }
         .row-content-s {
-                width: 90%;
+                width: 95%;
         }
         .com-skillset-slotlist {
-                font-size: 240%;
+                font-size: 200%;
+                width: 90%;
+                margin: 0 auto;
         }
 
         .rec-slot-col {
-                height: 40vh;
+                height: 60vh;
+                width: 90%;
+                margin: 0 auto;
+                padding: 0;
+                display: flex;
+                display: flex;
+                flex-direction: column;
         }
         .rec-slot {
                 font-size: 200%;
+                width: auto;
+                margin: 0 auto;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
         }
         .rec-title, 
         .rec-job-title, 
         .rec-log {
-                font-size: 100%;
-                text-align: center;
+                width: 100px ;
         }
-}
+        .recommendation-img {
+                display: block;
+                float: none;
+                margin: 0 auto;
+        }
+        blockquote {
+                margin: 15% 0 2% 0;
+        }
+ }
 
-*/
 
-/* ------------------------------ MAX-WIDTH: 3200px ------------------------------ */
 
-/*
+/* Small phones: from 321px to 480px */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) { 
+        
         body { font-size: 10px;}
         section { padding: 100px  0; } 
 
@@ -764,34 +748,82 @@
                 margin:  0 0 2% 0;
         }
         .nav-avatar {
-                height: 80px;
-                margin: 10px 0 0 0 ;
+                height: 40px;
+                margin: 30px 0 0 0 ;
         }
         .nav-avatar-name {
-                font-size: 500%;
+                font-size: 200%;
                 height: 90px;
                 margin: 5px 0 0 10px ;
         }
         .main-nav {
                 height: 90px;
                 margin: 5px 0 0 0 ;
-                font-size: 300%;
+                font-size: 100%;
+        }
+        .main-nav li {
+                font-size: 175%;
+                line-height: 100px;
+                width: 70px;
+                letter-spacing: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
         }
         .header-img-alignment {
-                height: 24vh;
+                height: 42vh;
+                display: flex;
+                align-items: center;
+        }
+        .header-img {
+                width: 100%;
+                margin: 0 auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+        }
+        .row-header {
+                height: auto;
+                padding: 5% 0 ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+        .avatar {
+                display: block;
+                width: 90%;
+                height: auto;
+                margin: 5% auto;
         }
         h1 {
-                font-size: 600%;
+                font-size: 300%;
+        }
+        .hero-text-box {
+                width: 100%;
+                margin: 10% auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
         }
         .hero-text {
                 font-size: 300%;
+                text-align: center;
         }
         .hero-text-span {
                 font-size: 80%;
+                text-align: center;
+        }
+        .job-posting {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .job-posting li a:link,
         .job-posting li a:visited {
                 font-size: 250%;
+                text-align: center;
         }
 
         .row-long-flex {
@@ -801,7 +833,11 @@
                 flex-direction: column;
         }
         h3 {
-                font-size: 400%;
+                font-size: 300%;
+        }
+        h3:after, .h3-sec-ski-end:after, .h3-non-conspicuous:after {
+                width: 100px;
+                margin: 10px auto 0 auto;
         }
         .h3-comskillslot {
                 width: 100%;
@@ -811,79 +847,127 @@
                 justify-content: center;
         }
         .h3-non-conspicuous {
+                font-size: 200%;
                 text-align: center;
         }
         .h3-non-conspicuous:after {
-                text-align: center;
-                display: block;
-                height: 2px;
-                background-color: #06185a;
-                content: " ";
+                background-color: #868686;
                 width: 20%;
                 margin: 10px auto 5% auto;
         }
         .column-experience {
-                float: none ;
-                order: 1;
+                height: 60vh;
                 width: 100%;
-                height: 40vh;
+                margin: 5% auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .column-education {
-                float: none;
-                order: 2;
+                height: 60vh;
                 width: 100%;
-                border-top: 0;
-                margin-top: 0;
-                height: 40vh;
-                overflow: scroll;
-        }
-
-        .experience-box, .education-box {
-                height: auto;
-                width: 90%;
-                margin: 0% auto 0% auto;
-                border-bottom: 2px solid #acacac;
-                padding: 2% 38.5% 2% 2.5% ;
-                font-size: 275%;
+                margin: 0 auto;
                 display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .experience-box, .education-box {
+                width: 90%;
+                margin: 0 auto;
+                padding: 5% 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 200%;
+        }
+        .experience-job-list {
+                width: 70%;
+                margin: 2% auto;
+        }
+        .experience-text-box, .education-text-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin:  0 0 5% 0 ;
+                padding: 5% 0;
         }
         .experience-img, .education-img {
-                width: 100%;
-                margin: 5% 5%;
+                display: block;
                 height: auto;
-                border: 2px solid #000000;
+                width: 40%;
+                margin: 0 auto 5% auto;
+        }
+        .experience-title,
+        .organization-title,
+        .duration-title,
+        .location-title {
+                text-align: center;
+        }
+        .experience-job-box {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2% 0 ;
+        }
+        .exp-job-box-img {
+                width: 30%;
+                height: auto;
+                border: 0;
+        }
+        .exp-job-box-img img {
+                width: 100%;
+                height: auto;
                 border-radius: 5px;
         }
-        .experience-text-box {
-                margin: 0 0 0 5% ;
+        .exp-job-box-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
-        .exp-job-box-text-title {
-                font-size: 90%;
+        .exp-job-box-text-title, .exp-job-box-text-title-long  {
+                padding:  2% 0;
+                font-size: 200%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .exp-job-box-text-title-long {
-                font-size: 90%;
+                font-size: 150%;
         }
 
         h2 {
-                font-size: 600%;
+                font-size: 300%;
         }
         .p-skillset {
-                font-size: 300%;
+                font-size: 200%;
                 text-align: center;
                 margin: 5% 0 10% 0;
+                padding: 2% 0;
         }
         .row-content-s {
-                width: 90%;
+                width: 95%;
         }
         .com-skillset-slotlist {
-                font-size: 240%;
+                font-size: 200%;
+                width: 90%;
+                margin: 0 auto;
         }
 
         .rec-slot-col {
-                height: 40vh;
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .rec-slot {
                 font-size: 200%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
         }
         .rec-title, 
         .rec-job-title, 
@@ -891,64 +975,271 @@
                 font-size: 100%;
                 text-align: center;
         }
-}
-
-*/
-
-
-
-
-
-
-
-
+        .recommendation-img {
+                display: block;
+                float: none;
+                margin: 0 auto;
+        }
+        blockquote {
+                margin: 15% 0 2% 0;
+        }
+ }
 
 
 
+/* Small phones: from 0 to 320px */
 
+@media only screen and (max-width: 320px) { 
+        
+        body { font-size: 10px;}
+        section { padding: 100px  0; } 
 
+        header {
+                height: auto;
+                margin: 0;
+                padding: 0 0 5% 0;
+        }       
+        nav { 
+                height: 100px; 
+                padding: 0 2%;
+                margin:  0 0 2% 0;
+        }
+        .nav-avatar {
+                height: 40px;
+                margin: 30px 0 0 0 ;
+        }
+        .nav-avatar-name {
+                font-size: 200%;
+                height: 90px;
+                margin: 5px 0 0 10px ;
+        }
+        .main-nav {
+                height: 90px;
+                margin: 5px 0 0 0 ;
+                font-size: 100%;
+        }
+        .main-nav li {
+                font-size: 175%;
+                line-height: 100px;
+                width: 70px;
+                letter-spacing: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        .header-img-alignment {
+                height: 30vh;
+                display: flex;
+                align-items: center;
+        }
+        .header-img {
+                width: 100%;
+                margin: 0 auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+        }
+        .row-header {
+                height: auto;
+                padding: 5% 0 ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+        .avatar {
+                display: block;
+                width: 90%;
+                height: auto;
+                margin: 5% auto;
+        }
+        h1 {
+                font-size: 300%;
+        }
+        .hero-text-box {
+                width: 100%;
+                margin: 10% auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+        }
+        .hero-text {
+                font-size: 300%;
+                text-align: center;
+        }
+        .hero-text-span {
+                font-size: 80%;
+                text-align: center;
+        }
+        .job-posting {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .job-posting li a:link,
+        .job-posting li a:visited {
+                font-size: 250%;
+                text-align: center;
+        }
 
+        .row-long-flex {
+                max-width: 95%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+        }
+        h3 {
+                font-size: 300%;
+        }
+        h3:after, .h3-sec-ski-end:after, .h3-non-conspicuous:after {
+                width: 100px;
+                margin: 10px auto 0 auto;
+        }
+        .h3-comskillslot {
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        .h3-non-conspicuous {
+                font-size: 200%;
+                text-align: center;
+        }
+        .h3-non-conspicuous:after {
+                background-color: #868686;
+                width: 20%;
+                margin: 10px auto 5% auto;
+        }
+        .column-experience {
+                height: 60vh;
+                width: 100%;
+                margin: 5% auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .column-education {
+                height: 60vh;
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .experience-box, .education-box {
+                width: 90%;
+                margin: 0 auto;
+                padding: 5% 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: small;
+        }
+        .experience-job-list {
+                width: 70%;
+                margin: 2% auto;
+        }
+        .experience-text-box, .education-text-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin:  0 0 5% 0 ;
+                padding: 5% 0;
+        }
+        .experience-img, .education-img {
+                display: block;
+                height: auto;
+                width: 40%;
+                margin: 0 auto 5% auto;
+        }
+        .experience-title,
+        .organization-title,
+        .duration-title,
+        .location-title {
+                text-align: center;
+        }
+        .experience-job-box {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2% 0 ;
+        }
+        .exp-job-box-img {
+                width: 30%;
+                height: auto;
+                border: 0;
+        }
+        .exp-job-box-img img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+        }
+        .exp-job-box-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .exp-job-box-text-title, .exp-job-box-text-title-long  {
+                padding:  2% 0;
+                font-size: 200%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .exp-job-box-text-title-long {
+                font-size: 150%;
+        }
 
+        h2 {
+                font-size: 300%;
+        }
+        .p-skillset {
+                font-size: 200%;
+                text-align: center;
+                margin: 5% 0 10% 0;
+                padding: 2% 0;
+        }
+        .row-content-s {
+                width: 95%;
+        }
+        .com-skillset-slotlist {
+                font-size: 140%;
+                width: 90%;
+                margin: 0 auto;
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Big tablet to 1200px (widths smaller taht the 1140px row) */
-@media only screen and (max-width: 1200px) {  }
-    
-    
-    /* Small tablet to big tablet: from 768px to 1023px */
-    @media only screen and (max-width: 1024px) {  }
-    
-    
-    
-    /* Small phones to small tablets: from 481px to 767px */
-    @media only screen and (max-width: 900px) {  }
-    
-    
-    
-    /* Small phones: from 0 to 480px */
-    @media only screen and (max-width: 768px) {  }
+        .rec-slot-col {
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .rec-slot {
+                font-size: 200%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .rec-title, 
+        .rec-job-title, 
+        .rec-log {
+                font-size: 100%;
+                text-align: center;
+        }
+        .recommendation-img {
+                display: block;
+                float: none;
+                margin: 0 auto;
+        }
+        blockquote {
+                margin: 15% 0 2% 0;
+        }
+ }
     
     
